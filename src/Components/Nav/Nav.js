@@ -7,7 +7,9 @@ export default class Nav extends Component {
   render() {
     return (
       <div className="div__nav">
-        <h3>Home</h3>
+        <Link to='/'>
+          <h3>Home</h3>
+        </Link>
         <Link to='/routes'>
           <h3>Routes</h3>
         </Link>
