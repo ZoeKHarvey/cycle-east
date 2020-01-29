@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import './Routes.css';
 
-export const Routes = () => {
+export const About = () => {
 
     return(
-      <h1>Routes</h1>
+      <h1>About</h1>
     )
   
 }
