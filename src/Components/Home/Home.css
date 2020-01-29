@@ -1,5 +1,34 @@
 
 .img__lake {
-  max-width: 54%;
+  max-width: 56%;
   margin-top: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+
+.img__cycle {
+  max-width: 40%;
+  display: inline;
+  border: 9px solid white;
+  position: absolute;
+  right: 46%;
+  top: 60%;
+}
+
+.div__home--text {
+  float: right;
+  width: 20%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.h4__home--title {
+  font-style: italic;
+}
+
+.button__explore {
+  width: 81%;
+  height: 2em;
+  font-size: .9em;
+  border-radius: 22px;
 }
