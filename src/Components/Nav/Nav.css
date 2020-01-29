@@ -6,4 +6,16 @@
   background-color: #3E96A8;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
+  height: 8vh;
+}
+
+h3:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  font-style: italic;
+}
+
+h3 {
+  width: 7%;
+  text-align:center;
 }
