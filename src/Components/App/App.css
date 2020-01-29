@@ -1,3 +1,9 @@
 .h1__title {
   font-family: 'Josefin Sans', sans-serif;
+  margin-left: 2%;
+}
+
+.app__span {
+  font-style: italic;
+  font-size: .7em;
 }
