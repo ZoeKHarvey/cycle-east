@@ -13,7 +13,9 @@ export default class Nav extends Component {
         <Link to='/routes'>
           <h3>Routes</h3>
         </Link>
+        <Link to='/about'>
           <h3>About</h3>
+        </Link>
         <Link to='/contact'> 
           <h3>Contact</h3>
         </Link>

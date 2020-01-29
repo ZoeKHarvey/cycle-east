@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import './Routes.css';
 
-export const Routes = () => {
+export const About = () => {
 
     return(
       <h1>About</h1>
