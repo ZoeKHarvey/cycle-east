@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Components/Nav/Nav';
-import Routes from './Components/Routes/Routes'
+import {Routes} from './Components/Routes/Routes'
 import '../src/Components/App/App.css';
 import {Home} from './Components/Home/Home';
 import {Contact} from './Components/Contact/Contact'

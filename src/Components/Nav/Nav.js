@@ -8,10 +8,12 @@ export default class Nav extends Component {
     return (
       <div className="div__nav">
         <h3>Home</h3>
-        <h3>Routes</h3>
-        <h3>About</h3>
+        <Link to='/routes'>
+          <h3>Routes</h3>
+        </Link>
+          <h3>About</h3>
         <Link to='/contact'> 
-        <h3>Contact</h3>
+          <h3>Contact</h3>
         </Link>
       </div>
       
