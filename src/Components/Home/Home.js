@@ -14,8 +14,8 @@ export const Home = () => {
         <h4 className="h4__home--title">A new kind of adventure</h4>
         <p className="p__home--paragraph">Where the adrenaline of independence meets the comfort of experience</p>
         <Link to='/routes'> 
-      <button className="button__explore">Learn What You Can Do</button>
-      </Link>
+          <button className="button__explore">Learn What You Can Do</button>
+        </Link>
       </div>
     </div>
     
