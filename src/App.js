@@ -3,6 +3,7 @@ import Nav from './Components/Nav/Nav';
 import Routes from './Components/Routes/Routes'
 import '../src/Components/App/App.css';
 import {Home} from './Components/Home/Home';
+import {Contact} from './Components/Contact/Contact'
 import { Route } from 'react-router-dom';
 
 
@@ -17,6 +18,9 @@ function App() {
         }/>
         <Route exact path='/routes' render={() => <>
           <Routes /> </>
+        }/>
+        <Route exact path='/contact' render={() => <>
+          <Contact /> </>
         }/>
       </header>
     </div>
