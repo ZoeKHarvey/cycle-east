@@ -1,0 +1,9 @@
+
+.div__nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #3E96A8;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
