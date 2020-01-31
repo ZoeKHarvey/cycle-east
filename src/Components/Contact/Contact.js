@@ -8,7 +8,7 @@ export class Contact extends Component {
     return(
       <h1>Contact</h1>
       <h3>Phone: 802-343-6110</h3>
-      
+      <h3>Email: jharvey@lundvt.org</h3>
     )
   }
 }
