@@ -4,10 +4,11 @@ import './Contact.css';
 
 export class Contact extends Component {
   constructor() {
+    super()
     this.state = {
-      name = '',
-      email='',
-      content = ''
+      name: '',
+      email:'',
+      content:''
     }
   }
 
