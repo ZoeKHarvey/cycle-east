@@ -9,12 +9,12 @@
   height: 8vh;
 }
 
-h3:hover {
+.h3__nav--tab:hover {
   border-bottom: 2px solid white;
   cursor: pointer;
   font-style: italic;
 }
 
-h3 {
+.h3__nav--tab {
   text-align:center;
 }
