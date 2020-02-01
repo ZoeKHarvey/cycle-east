@@ -1,0 +1,27 @@
+
+.div__about {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.p__about--main {
+  text-align: left;
+}
+
+button {
+  width: 99%;
+    height: 3em;
+    font-size: .9em;
+    border-radius: 22px;
+    font-weight: bold;
+    border: 1.5px solid;
+    margin-top: 10%;
+}
+
+button:hover {
+  color: #3E96A8;
+  cursor: pointer;
+}
