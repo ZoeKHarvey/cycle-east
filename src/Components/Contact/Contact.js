@@ -9,7 +9,8 @@ export class Contact extends Component {
       name: '',
       email:'',
       content:'',
-      error : ''
+      error : '',
+      errorStyle: ''
     }
   }
 
@@ -20,11 +21,12 @@ export class Contact extends Component {
   handleSubmit = () => {
     // Will eventually send email on click
     if(this.state.name || this.state.email || this.state.content === '') {
-      this.setState({ error: 'Please fill in required fields to continue'})
+      this.setState({ error: 'Please fill in required fields to continue', errorStyle: '1px solid red'})
     }
     if(this.state.error === '') {
       this.setState({ name: '', email: '', content: ''})
     }
+    console.log(this.state)
   }
 
 
@@ -36,6 +38,7 @@ export class Contact extends Component {
         <h3>Phone: 802-343-6110</h3>
         <h3>Email: jharvey@anemailaddress.com</h3>
         <div className="div__contact--form">
+          <h6>{this.state.error}</h6>
           <input 
             placeholder="Name" 
             className="input__contact--name" 
@@ -55,7 +58,6 @@ export class Contact extends Component {
             value={ this.state.content } 
             onChange={ this.handleChange } />
           <button className="button__contact--submit" onClick={ this.handleSubmit }>Submit</button>
-          <h1>{this.state.error}</h1>
         </div>
       </div>
     )
