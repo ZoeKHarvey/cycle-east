@@ -6,6 +6,7 @@ import {Home} from './Components/Home/Home';
 import {Contact} from './Components/Contact/Contact';
 import {About} from './Components/About/About'
 import { Route } from 'react-router-dom';
+import { Prep } from './Components/Prep/Prep'
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
         }/>
         <Route exact path='/about' render={() => <>
           <About /> </>
+        }/>
+        <Route exact path='/prepare' render={() => <>
+          <Prep /> </>
         }/>
       </header>
     </div>

@@ -8,7 +8,9 @@ export class Contact extends Component {
     this.state = {
       name: '',
       email:'',
-      content:''
+      content:'',
+      error : '',
+      errorStyle: ''
     }
   }
 
@@ -17,17 +19,26 @@ export class Contact extends Component {
   }
 
   handleSubmit = () => {
-    console.log('in submit')
     // Will eventually send email on click
+    if(this.state.name || this.state.email || this.state.content === '') {
+      this.setState({ error: 'Please fill in required fields to continue', errorStyle: '1px solid red'})
+    }
+    if(this.state.error === '') {
+      this.setState({ name: '', email: '', content: ''})
+    }
+    console.log(this.state)
   }
+
+
 
   render() {
     return(
       <div className="div__contact">
         <h1>Contact</h1>
         <h3>Phone: 802-343-6110</h3>
-        <h3>Email: jharvey@lundvt.org</h3>
+        <h3>Email: jharvey@anemailaddress.com</h3>
         <div className="div__contact--form">
+          <h6>{this.state.error}</h6>
           <input 
             placeholder="Name" 
             className="input__contact--name" 
