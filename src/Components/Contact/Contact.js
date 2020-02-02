@@ -22,7 +22,9 @@ export class Contact extends Component {
     if(this.state.name || this.state.email || this.state.content === '') {
       this.setState({ error: 'Please fill in required fields to continue'})
     }
-    console.log(this.state)
+    if(this.state.error === '') {
+      this.setState({ name: '', email: '', content: ''})
+    }
   }
 
 
