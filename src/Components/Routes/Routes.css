@@ -1,0 +1,12 @@
+
+.div__routes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.p__routes--txt {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
