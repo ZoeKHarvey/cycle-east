@@ -55,6 +55,7 @@ export class Contact extends Component {
             value={ this.state.content } 
             onChange={ this.handleChange } />
           <button className="button__contact--submit" onClick={ this.handleSubmit }>Submit</button>
+          <h1>{this.state.error}</h1>
         </div>
       </div>
     )
